@@ -2,14 +2,14 @@
 
 This project is a smart inventory monitoring tool designed for modern fulfillment centers like Digikala. It bridges a relational database management system (SQL Server) with an automation script (Python) to keep track of product stocks in real-time and alert managers about critical low-stock items.
 
-## 🛠 Tech Stack & Architecture
+##  Tech Stack & Architecture
 * Database: SQL Server (SSMS) - Handles relational data, automatic indexing, and constraints.
 * Backend: Python 3 - Connects to SQL Server using pyodbc to execute queries and process logic.
 * Core Logic: Uses JOIN queries and conditional thresholds (MinRequired) to detect shortages.
 
 ---
 
-## :floppy_disk: Database Schema (SQL Server)
+## floppy_disk: Database Schema (SQL Server)
 Run this script in your SSMS to create the database and sample dataset:
 
 `sql
@@ -38,7 +38,7 @@ CREATE TABLE Inventory (
     MinRequired INT NOT NULL DEFAULT 10
 );
 
-🚀 How to Run the Python Automation
+ How to Run the Python Automation
 1. Install the required driver package:
 pip install pyodbc
 2. Run the monitoring script:
